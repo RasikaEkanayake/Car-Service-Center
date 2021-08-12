@@ -1,9 +1,0 @@
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\bin\Debug\Supplierform.exe.config
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\bin\Debug\Supplierform.exe
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\bin\Debug\Supplierform.pdb
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.csprojAssemblyReference.cache
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.Properties.Resources.resources
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.csproj.GenerateResource.cache
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.exe
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.pdb
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Supplierform\Supplierform\obj\Debug\Supplierform.Supplierform.resources
