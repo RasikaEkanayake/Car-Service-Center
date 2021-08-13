@@ -59,7 +59,7 @@ namespace OutgoingFinance1
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(781, 335);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "Stock Cost";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button2.MouseLeave += new System.EventHandler(this.button2_MouseLeave);
@@ -76,7 +76,7 @@ namespace OutgoingFinance1
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(781, 335);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Development Cost";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.MouseLeave += new System.EventHandler(this.button3_MouseLeave);
             this.button3.MouseHover += new System.EventHandler(this.button3_Mousehover);
@@ -92,7 +92,7 @@ namespace OutgoingFinance1
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(781, 335);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Supplier Bills";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
             this.button4.MouseHover += new System.EventHandler(this.button4_Mousehover);
@@ -108,7 +108,7 @@ namespace OutgoingFinance1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(781, 335);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "Employee Salary";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.button1_Mousehover);
@@ -233,7 +233,7 @@ namespace OutgoingFinance1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.ClientSize = new System.Drawing.Size(1920, 1055);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
