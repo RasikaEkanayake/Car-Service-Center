@@ -216,14 +216,18 @@ namespace OutgoingFinance1
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.Red;
+            this.button9.BackColor = System.Drawing.Color.Snow;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.Location = new System.Drawing.Point(1819, 23);
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.ForeColor = System.Drawing.Color.Red;
+            this.button9.Location = new System.Drawing.Point(1863, 12);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 50);
+            this.button9.Size = new System.Drawing.Size(45, 45);
             this.button9.TabIndex = 9;
             this.button9.Text = "X";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // Form1
             // 

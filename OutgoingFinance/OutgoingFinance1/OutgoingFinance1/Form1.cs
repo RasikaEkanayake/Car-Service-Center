@@ -63,7 +63,7 @@ namespace OutgoingFinance1
 
         private void button2_Mousehover(object sender, EventArgs e)
         {
-            button2.BackColor = Color.OrangeRed;
+            button2.BackColor = Color.LightBlue;
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
@@ -73,7 +73,7 @@ namespace OutgoingFinance1
 
         private void button3_Mousehover(object sender, EventArgs e)
         {
-            button3.BackColor = Color.Orange;
+            button3.BackColor = Color.Orchid;
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
@@ -111,5 +111,15 @@ namespace OutgoingFinance1
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to exit?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialog == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
     }
 }
