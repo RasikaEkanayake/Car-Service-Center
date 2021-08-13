@@ -39,7 +39,7 @@ namespace OutgoingFinance1
             button4.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button4.Width, button4.Height, 30, 30));
 
             timer1.Start();
-            label1.Text = DateTime.Now.ToShortTimeString();
+            label1.Text = DateTime.Now.ToLongTimeString();
             label2.Text = DateTime.Now.ToLongDateString();
         }
 
@@ -101,12 +101,6 @@ namespace OutgoingFinance1
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            label1.Text = DateTime.Now.ToShortTimeString();
-            timer1.Start();
-        }
-
         private void button7_Click(object sender, EventArgs e)
         {
 
@@ -121,5 +115,10 @@ namespace OutgoingFinance1
             }
         }
 
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
     }
 }
