@@ -41,7 +41,6 @@ namespace OutgoingFinance1
             timer1.Start();
             label1.Text = DateTime.Now.ToShortTimeString();
             label2.Text = DateTime.Now.ToLongDateString();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,10 +48,53 @@ namespace OutgoingFinance1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
+
+        //Adding hovers to button
+        private void button1_Mousehover(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.GreenYellow;
         }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button2_Mousehover(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.OrangeRed;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button3_Mousehover(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.Orange;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button4_Mousehover(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Yellow;
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.WhiteSmoke;
+        }
+
+
+
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -65,5 +107,9 @@ namespace OutgoingFinance1
             timer1.Start();
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
