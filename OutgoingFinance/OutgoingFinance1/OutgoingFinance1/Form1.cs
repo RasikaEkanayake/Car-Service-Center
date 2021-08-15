@@ -39,9 +39,8 @@ namespace OutgoingFinance1
             button4.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button4.Width, button4.Height, 30, 30));
 
             timer1.Start();
-            label1.Text = DateTime.Now.ToShortTimeString();
+            label1.Text = DateTime.Now.ToLongTimeString();
             label2.Text = DateTime.Now.ToLongDateString();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,21 +48,77 @@ namespace OutgoingFinance1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
+
+        //Adding hovers to button
+        private void button1_Mousehover(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.GreenYellow;
         }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button2_Mousehover(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.LightBlue;
+        }
+
+        private void button2_MouseLeave(object sender, EventArgs e)
+        {
+            button2.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button3_Mousehover(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.Orchid;
+        }
+
+        private void button3_MouseLeave(object sender, EventArgs e)
+        {
+            button3.BackColor = Color.WhiteSmoke;
+        }
+
+        private void button4_Mousehover(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Yellow;
+        }
+
+        private void button4_MouseLeave(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.WhiteSmoke;
+        }
+
+
+
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            label1.Text = DateTime.Now.ToShortTimeString();
-            timer1.Start();
+
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to exit?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialog == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
     }
 }
