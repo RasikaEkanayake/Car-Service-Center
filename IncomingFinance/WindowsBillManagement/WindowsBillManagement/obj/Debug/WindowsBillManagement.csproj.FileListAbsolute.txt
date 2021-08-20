@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\bin\Debug\WindowsBillManagement.exe.config
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\bin\Debug\WindowsBillManagement.exe
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\bin\Debug\WindowsBillManagement.pdb
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.Properties.Resources.resources
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.exe
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.pdb
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.ServiceTypes.resources
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.Bill.resources
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.AddNewIncome.resources
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.Form2.resources
+C:\Users\admin\source\repos\WindowsBillManagement\WindowsBillManagement\obj\Debug\WindowsBillManagement.IncomeTable.resources
