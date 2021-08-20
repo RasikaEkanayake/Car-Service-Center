@@ -1,17 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace Suppliermanage
 {
     public partial class Supplierform : Form
     {
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+            (
+                int nLeft,
+                int nTop,
+                int nRight,
+                int nBottom,
+                int nwidthEllipse,
+                int nHightEllipse
+            );
         public Supplierform()
         {
             InitializeComponent();
@@ -23,6 +28,13 @@ namespace Suppliermanage
             int h = Screen.PrimaryScreen.Bounds.Height;
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
+
+            button6.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
+
+
+            timer1.Start();
+            label2.Text = DateTime.Now.ToLongTimeString();
+            label5.Text = DateTime.Now.ToLongDateString();
 
         }
 
@@ -44,6 +56,66 @@ namespace Suppliermanage
         }
 
         private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to exit?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialog == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            new supplierlist().ShowDialog();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
