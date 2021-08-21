@@ -37,8 +37,8 @@ namespace OutgoingFinance1
         private void Form2_Load(object sender, EventArgs e)
         {
             //fix rectangle curves
-            button1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width, button1.Height, 30, 30));
-            button2.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button1.Width, button2.Height, 30, 30));
+            addnew.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, addnew.Width, addnew.Height, 30, 30));
+            button2.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, addnew.Width, button2.Height, 30, 30));
 
             //timer
             timer1.Start();
