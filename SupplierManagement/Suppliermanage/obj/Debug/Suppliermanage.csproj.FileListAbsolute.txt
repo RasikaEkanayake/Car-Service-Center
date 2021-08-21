@@ -1,9 +1,12 @@
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\bin\Debug\Suppliermanage.exe.config
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\bin\Debug\Suppliermanage.exe
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\bin\Debug\Suppliermanage.pdb
-C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.csprojAssemblyReference.cache
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.Supplierform.resources
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.Properties.Resources.resources
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.csproj.GenerateResource.cache
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.exe
 C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.pdb
+C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.supplierlist.resources
+C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.Supplierprofile.resources
+C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\ITPPP\Car-Service-Center\SupplierManagement\Suppliermanage\obj\Debug\Suppliermanage.csproj.CoreCompileInputs.cache

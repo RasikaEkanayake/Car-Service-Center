@@ -30,3 +30,21 @@ C:\Users\rasika\source\repos\ITP\OutgoingFinance\OutgoingFinance1\OutgoingFinanc
 C:\Users\rasika\source\repos\ITP\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.dll
 C:\Users\rasika\source\repos\ITP\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.pdb
 C:\Users\rasika\source\repos\ITP\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.genruntimeconfig.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.exe
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.deps.json
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.runtimeconfig.json
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.runtimeconfig.dev.json
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.pdb
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.AssemblyReference.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Properties.Resources.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.GenerateResource.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.AssemblyInfoInputs.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.AssemblyInfo.cs
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.CoreCompileInputs.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.pdb
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.genruntimeconfig.cache
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Employeesalary.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form2.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form1.resources

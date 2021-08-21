@@ -110,6 +110,7 @@ namespace OutgoingFinance1
             this.button1.TabIndex = 4;
             this.button1.Text = "Employee Salary";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.button1_Mousehover);
             // 
@@ -234,7 +235,7 @@ namespace OutgoingFinance1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1920, 1055);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -247,7 +248,6 @@ namespace OutgoingFinance1
             this.Font = new System.Drawing.Font("Lato Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

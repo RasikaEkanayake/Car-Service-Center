@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="suplist.cs" />
     <Compile Include="Supplierform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +56,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="supplierlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplierlist.Designer.cs">
+      <DependentUpon>supplierlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Supplierprofile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplierprofile.Designer.cs">
+      <DependentUpon>Supplierprofile.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Supplierform.resx">
       <DependentUpon>Supplierform.cs</DependentUpon>
     </EmbeddedResource>
@@ -67,6 +81,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="supplierlist.resx">
+      <DependentUpon>supplierlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Supplierprofile.resx">
+      <DependentUpon>Supplierprofile.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
