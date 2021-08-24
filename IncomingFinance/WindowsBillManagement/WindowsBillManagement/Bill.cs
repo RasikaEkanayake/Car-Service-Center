@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,18 @@ namespace WindowsBillManagement
 {
     public partial class Bill : Form
     {
+        //fix rectangle curves
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+            (
+                int nLeft,
+                int nTop,
+                int nRight,
+                int nBottom,
+                int nwidthEllipse,
+                int nHightEllipse
+            );
+
         double t1Unit = 20000.00;
         double t2Unit = 12000.00;
         double t3Unit = 5500.00;
@@ -247,6 +260,18 @@ namespace WindowsBillManagement
             //this.Location = new Point(0, 0);
             //this.Size = new Size(w, h);
 
+            //fix rectangle curves
+            btnTotal.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnTotal.Width, btnTotal.Height, 12, 12));
+            btnReset.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnReset.Width, btnReset.Height, 12, 12));
+            btnSave.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnSave.Width, btnSave.Height, 12, 12));
+            btnReceipt.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnReceipt.Width, btnReceipt.Height, 12, 12));
+            btnPrint.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnPrint.Width, btnPrint.Height, 12, 12));
+
+            getCusD.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, getCusD.Width, getCusD.Height, 5, 5));
+            billSetDateBtn.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, billSetDateBtn.Width, billSetDateBtn.Height, 5, 5));
+            incomeTaBtn.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, incomeTaBtn.Width, incomeTaBtn.Height, 5, 5));
+            priceTaBtn.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, priceTaBtn.Width, priceTaBtn.Height, 5, 5));
+
             timer1.Start();
 
             billPayMethodCombo.Text = "Select a Payment Method";
@@ -306,14 +331,16 @@ namespace WindowsBillManagement
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            DialogResult dialog = MessageBox.Show("Do you really want to exit?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialog == DialogResult.Yes)
             {
-                DialogResult dialog = MessageBox.Show("Do you really want to exit?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (dialog == DialogResult.Yes)
-                {
-                    Application.Exit();
-                }
+                Application.Exit();
             }
         }
 
+        private void labelT_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
