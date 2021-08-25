@@ -156,7 +156,7 @@ namespace OutgoingFinance1
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(34, 355);
+            this.button5.Location = new System.Drawing.Point(22, 357);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(62, 64);
             this.button5.TabIndex = 7;
@@ -170,7 +170,7 @@ namespace OutgoingFinance1
             this.panel1.Controls.Add(this.button5);
             this.panel1.Location = new System.Drawing.Point(0, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(130, 1085);
+            this.panel1.Size = new System.Drawing.Size(100, 1085);
             this.panel1.TabIndex = 8;
             // 
             // button8
@@ -181,7 +181,7 @@ namespace OutgoingFinance1
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(34, 709);
+            this.button8.Location = new System.Drawing.Point(22, 711);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(62, 64);
             this.button8.TabIndex = 7;
@@ -195,7 +195,7 @@ namespace OutgoingFinance1
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(34, 591);
+            this.button7.Location = new System.Drawing.Point(22, 593);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 64);
             this.button7.TabIndex = 7;
@@ -210,7 +210,7 @@ namespace OutgoingFinance1
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(34, 473);
+            this.button6.Location = new System.Drawing.Point(22, 475);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 64);
             this.button6.TabIndex = 7;
@@ -235,7 +235,7 @@ namespace OutgoingFinance1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.ClientSize = new System.Drawing.Size(1920, 1055);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);

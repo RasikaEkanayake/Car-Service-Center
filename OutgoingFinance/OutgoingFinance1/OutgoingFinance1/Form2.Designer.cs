@@ -59,6 +59,7 @@ namespace OutgoingFinance1
             this.Search = new System.Windows.Forms.TextBox();
             this.addnew = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -185,6 +186,7 @@ namespace OutgoingFinance1
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.Search);
@@ -367,6 +369,20 @@ namespace OutgoingFinance1
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.DarkGreen;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(208, 27);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(155, 56);
+            this.button3.TabIndex = 36;
+            this.button3.Text = "Print";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -421,5 +437,6 @@ namespace OutgoingFinance1
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewButtonColumn Column10;
         private System.Windows.Forms.DataGridViewButtonColumn Column11;
+        private System.Windows.Forms.Button button3;
     }
 }

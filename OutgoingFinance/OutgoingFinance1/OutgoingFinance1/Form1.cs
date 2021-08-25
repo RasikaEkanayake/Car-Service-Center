@@ -45,7 +45,8 @@ namespace OutgoingFinance1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            stockcost stockcost= new stockcost();
+            stockcost.Show();
         }
 
         //Adding hovers to button
