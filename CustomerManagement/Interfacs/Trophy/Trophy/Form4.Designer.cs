@@ -64,7 +64,7 @@
             this.updatepanel.Controls.Add(this.label2);
             this.updatepanel.Location = new System.Drawing.Point(-1, -1);
             this.updatepanel.Name = "updatepanel";
-            this.updatepanel.Size = new System.Drawing.Size(704, 70);
+            this.updatepanel.Size = new System.Drawing.Size(706, 70);
             this.updatepanel.TabIndex = 2;
             this.updatepanel.Paint += new System.Windows.Forms.PaintEventHandler(this.updatepanel_Paint);
             // 

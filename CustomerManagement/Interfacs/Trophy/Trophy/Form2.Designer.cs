@@ -284,7 +284,7 @@
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Lato", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.ForeColor = System.Drawing.Color.Red;
             this.button8.Location = new System.Drawing.Point(677, 12);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(60, 34);
