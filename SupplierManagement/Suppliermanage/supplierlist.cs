@@ -34,8 +34,8 @@ namespace Suppliermanage
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
 
-            button6.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
-            button7.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
+            buttonview.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, buttonview.Width, buttonview.Height, 30, 30));
+            buttonadd.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, buttonadd.Width, buttonadd.Height, 30, 30));
 
             timer1.Start();
             label3.Text = DateTime.Now.ToLongTimeString();
@@ -86,16 +86,9 @@ namespace Suppliermanage
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            new Supplierform().ShowDialog();
-        }
+        
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            new Supplierprofile().ShowDialog();
-        }
-
+       
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -116,6 +109,18 @@ namespace Suppliermanage
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
 
+        }
+
+        
+
+        private void buttonadd_Click(object sender, EventArgs e)
+        {
+            new Supplierform().ShowDialog();
+        }
+
+        private void buttonview_Click(object sender, EventArgs e)
+        {
+            new Supplierprofile().ShowDialog();
         }
     }
 }
