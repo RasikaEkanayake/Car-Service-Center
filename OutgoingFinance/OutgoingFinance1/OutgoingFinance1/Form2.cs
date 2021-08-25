@@ -59,5 +59,11 @@ namespace OutgoingFinance1
             label1.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
         }
+
+        private void addnew_Click(object sender, EventArgs e)
+        {
+            addempsal addempsal = new addempsal();
+            addempsal.Show();
+        }
     }
 }

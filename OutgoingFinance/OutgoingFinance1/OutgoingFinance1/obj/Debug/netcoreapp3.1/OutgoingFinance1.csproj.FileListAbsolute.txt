@@ -48,3 +48,4 @@ E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingF
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Employeesalary.resources
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form2.resources
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form1.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.addempsal.resources
