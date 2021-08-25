@@ -1,0 +1,12 @@
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\bin\Debug\StockManagemnt.exe.config
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\bin\Debug\StockManagemnt.exe
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\bin\Debug\StockManagemnt.pdb
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.csprojAssemblyReference.cache
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.Form1.resources
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.Properties.Resources.resources
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.csproj.GenerateResource.cache
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.csproj.CoreCompileInputs.cache
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.exe
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.pdb
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.Form2.resources
+C:\Users\Kvindi\source\repos\StockManagemnt\StockManagemnt\obj\Debug\StockManagemnt.Form3.resources
