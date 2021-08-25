@@ -31,8 +31,8 @@ namespace WindowsBillManagement
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.addNewResetBtn = new System.Windows.Forms.Button();
+            this.addNewSaveBtn = new System.Windows.Forms.Button();
             this.addNewYeartxt = new System.Windows.Forms.ComboBox();
             this.addNewMonthtxt = new System.Windows.Forms.ComboBox();
             this.addNewDaytxt = new System.Windows.Forms.ComboBox();
@@ -49,6 +49,7 @@ namespace WindowsBillManagement
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,7 @@ namespace WindowsBillManagement
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MediumBlue;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(115, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(160, 45);
@@ -72,8 +73,8 @@ namespace WindowsBillManagement
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.addNewResetBtn);
+            this.panel1.Controls.Add(this.addNewSaveBtn);
             this.panel1.Controls.Add(this.addNewYeartxt);
             this.panel1.Controls.Add(this.addNewMonthtxt);
             this.panel1.Controls.Add(this.addNewDaytxt);
@@ -96,32 +97,32 @@ namespace WindowsBillManagement
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // button2
+            // addNewResetBtn
             // 
-            this.button2.BackColor = System.Drawing.Color.MediumBlue;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(138, 332);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 33);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Reset";
-            this.button2.UseVisualStyleBackColor = false;
+            this.addNewResetBtn.BackColor = System.Drawing.Color.MediumBlue;
+            this.addNewResetBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addNewResetBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.addNewResetBtn.ForeColor = System.Drawing.Color.White;
+            this.addNewResetBtn.Location = new System.Drawing.Point(138, 332);
+            this.addNewResetBtn.Name = "addNewResetBtn";
+            this.addNewResetBtn.Size = new System.Drawing.Size(88, 33);
+            this.addNewResetBtn.TabIndex = 4;
+            this.addNewResetBtn.Text = "Reset";
+            this.addNewResetBtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // addNewSaveBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(33, 332);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 33);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.addNewSaveBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.addNewSaveBtn.BackColor = System.Drawing.Color.Lime;
+            this.addNewSaveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addNewSaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.addNewSaveBtn.ForeColor = System.Drawing.Color.White;
+            this.addNewSaveBtn.Location = new System.Drawing.Point(33, 332);
+            this.addNewSaveBtn.Name = "addNewSaveBtn";
+            this.addNewSaveBtn.Size = new System.Drawing.Size(89, 33);
+            this.addNewSaveBtn.TabIndex = 3;
+            this.addNewSaveBtn.Text = "Save";
+            this.addNewSaveBtn.UseVisualStyleBackColor = false;
             // 
             // addNewYeartxt
             // 
@@ -395,14 +396,30 @@ namespace WindowsBillManagement
             this.label2.TabIndex = 0;
             this.label2.Text = "Customer ID";
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnExit.Location = new System.Drawing.Point(366, 1);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(38, 32);
+            this.btnExit.TabIndex = 16;
+            this.btnExit.Text = "X";
+            this.btnExit.UseVisualStyleBackColor = false;
+            // 
             // AddNewIncome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.ClientSize = new System.Drawing.Size(405, 475);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddNewIncome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddNewIncome";
@@ -432,9 +449,10 @@ namespace WindowsBillManagement
         private System.Windows.Forms.ComboBox addNewDaytxt;
         private System.Windows.Forms.TextBox addNewPricetxt;
         private System.Windows.Forms.TextBox addNewPayMtxt;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button addNewSaveBtn;
+        private System.Windows.Forms.Button addNewResetBtn;
         private System.Windows.Forms.TextBox addNewCusNametxt;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button btnExit;
     }
 }

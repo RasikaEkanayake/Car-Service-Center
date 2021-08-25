@@ -49,7 +49,7 @@ namespace WindowsBillManagement
 
         private void IncomeTable_Load(object sender, EventArgs e)
         {
-           
+            btnAddNewIncomeT.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btnAddNewIncomeT.Width, btnAddNewIncomeT.Height, 5, 5));
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -61,6 +61,12 @@ namespace WindowsBillManagement
                     Application.Exit();
                 }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelT.Text = DateTime.Now.ToLongTimeString();
+            labelD.Text = DateTime.Now.ToLongDateString();
         }
     }
 }
