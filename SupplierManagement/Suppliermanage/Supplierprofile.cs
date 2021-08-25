@@ -35,9 +35,11 @@ namespace Suppliermanage
             this.Size = new Size(w, h);
 
 
-            button6.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
-            button7.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
-            button8.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
+            button6.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button6.Width, button6.Height, 30, 30));
+
+            button7.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button7.Width, button7.Height, 30, 30));
+
+            button8.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, button8.Width, button8.Height, 30, 30));
 
 
             timer1.Start();
@@ -57,20 +59,26 @@ namespace Suppliermanage
             }
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            new supplierlist().ShowDialog();
-        }
+      
 
         private void button8_Click(object sender, EventArgs e)
         {
-            new Supplierform().ShowDialog();
+           
+            {
+                new Supplierform().ShowDialog();
+            }
+          
 
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            new supplierlist().ShowDialog();
+            DialogResult dialog = MessageBox.Show("Do you really want to Delete?", "Warning !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dialog == DialogResult.Yes)
+            {
+                new supplierlist().ShowDialog();
+            }
+
         }
 
         private void label10_Click(object sender, EventArgs e)
@@ -83,6 +91,11 @@ namespace Suppliermanage
             label1.Text = DateTime.Now.ToLongTimeString();
             label2.Text = DateTime.Now.ToLongDateString();
             timer1.Start();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            new supplierlist().ShowDialog();
         }
     }
     }

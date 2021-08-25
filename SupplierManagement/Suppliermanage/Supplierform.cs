@@ -29,8 +29,8 @@ namespace Suppliermanage
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h);
 
-            button6.Region = Region.FromHrgn(CreateRoundRectRgn(200, 0, button1.Width, button1.Height, 30, 30));
-
+            registerbtn.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, registerbtn.Width, registerbtn.Height, 30, 30));
+           
 
             timer1.Start();
             label2.Text = DateTime.Now.ToLongTimeString();
@@ -110,12 +110,19 @@ namespace Suppliermanage
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+       
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registerbtn_Click(object sender, EventArgs e)
         {
             new supplierlist().ShowDialog();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void sup2_Click(object sender, EventArgs e)
         {
 
         }
