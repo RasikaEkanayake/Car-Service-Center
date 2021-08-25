@@ -45,10 +45,9 @@ namespace OutgoingFinance1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            stockcost stockcost= new stockcost();
+            stockcost.Show();
         }
-
-
 
         //Adding hovers to button
         private void button1_Mousehover(object sender, EventArgs e)
@@ -91,11 +90,6 @@ namespace OutgoingFinance1
             button4.BackColor = Color.WhiteSmoke;
         }
 
-
-
-
-
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -120,5 +114,14 @@ namespace OutgoingFinance1
             label1.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form2 = new Form2();
+            form2.Closed += (s, args) => this.Close();
+            form2.Show();
+        }
+
     }
 }

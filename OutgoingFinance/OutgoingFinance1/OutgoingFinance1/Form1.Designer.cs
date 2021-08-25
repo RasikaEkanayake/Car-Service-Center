@@ -110,6 +110,7 @@ namespace OutgoingFinance1
             this.button1.TabIndex = 4;
             this.button1.Text = "Employee Salary";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             this.button1.MouseHover += new System.EventHandler(this.button1_Mousehover);
             // 
@@ -155,7 +156,7 @@ namespace OutgoingFinance1
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(34, 355);
+            this.button5.Location = new System.Drawing.Point(22, 357);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(62, 64);
             this.button5.TabIndex = 7;
@@ -169,7 +170,7 @@ namespace OutgoingFinance1
             this.panel1.Controls.Add(this.button5);
             this.panel1.Location = new System.Drawing.Point(0, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(130, 1085);
+            this.panel1.Size = new System.Drawing.Size(100, 1085);
             this.panel1.TabIndex = 8;
             // 
             // button8
@@ -180,7 +181,7 @@ namespace OutgoingFinance1
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(34, 709);
+            this.button8.Location = new System.Drawing.Point(22, 711);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(62, 64);
             this.button8.TabIndex = 7;
@@ -194,7 +195,7 @@ namespace OutgoingFinance1
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(34, 591);
+            this.button7.Location = new System.Drawing.Point(22, 593);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 64);
             this.button7.TabIndex = 7;
@@ -209,7 +210,7 @@ namespace OutgoingFinance1
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(34, 473);
+            this.button6.Location = new System.Drawing.Point(22, 475);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 64);
             this.button6.TabIndex = 7;
@@ -247,7 +248,6 @@ namespace OutgoingFinance1
             this.Font = new System.Drawing.Font("Lato Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

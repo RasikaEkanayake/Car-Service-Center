@@ -47,7 +47,7 @@ namespace WindowsBillManagement
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.customerIDtxt = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.getCusD = new System.Windows.Forms.Button();
             this.customerNametxt = new System.Windows.Forms.TextBox();
             this.vehicleIDtxt = new System.Windows.Forms.TextBox();
             this.customerDisctxt = new System.Windows.Forms.TextBox();
@@ -93,11 +93,6 @@ namespace WindowsBillManagement
             this.billYearCombo = new System.Windows.Forms.ComboBox();
             this.billDayCombo = new System.Windows.Forms.ComboBox();
             this.billSetDateBtn = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnExit = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
@@ -108,6 +103,11 @@ namespace WindowsBillManagement
             this.label26 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.type1Q)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.type2Q)).BeginInit();
@@ -126,9 +126,9 @@ namespace WindowsBillManagement
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.panel2.Location = new System.Drawing.Point(100, 95);
+            this.panel2.Location = new System.Drawing.Point(82, 95);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1274, 10);
+            this.panel2.Size = new System.Drawing.Size(1292, 10);
             this.panel2.TabIndex = 0;
             // 
             // panel3
@@ -149,9 +149,9 @@ namespace WindowsBillManagement
             this.panel4.Controls.Add(this.btnReset);
             this.panel4.Controls.Add(this.btnReceipt);
             this.panel4.Controls.Add(this.btnTotal);
-            this.panel4.Location = new System.Drawing.Point(100, 702);
+            this.panel4.Location = new System.Drawing.Point(83, 702);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1286, 69);
+            this.panel4.Size = new System.Drawing.Size(1303, 69);
             this.panel4.TabIndex = 2;
             // 
             // labelD
@@ -175,6 +175,7 @@ namespace WindowsBillManagement
             this.labelT.Size = new System.Drawing.Size(87, 38);
             this.labelT.TabIndex = 3;
             this.labelT.Text = "Time";
+            this.labelT.Click += new System.EventHandler(this.labelT_Click);
             // 
             // btnSave
             // 
@@ -184,7 +185,7 @@ namespace WindowsBillManagement
             this.btnSave.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.Black;
             this.btnSave.ImageKey = "(none)";
-            this.btnSave.Location = new System.Drawing.Point(644, 14);
+            this.btnSave.Location = new System.Drawing.Point(662, 14);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(183, 43);
             this.btnSave.TabIndex = 2;
@@ -199,7 +200,7 @@ namespace WindowsBillManagement
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrint.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.ForeColor = System.Drawing.Color.Black;
-            this.btnPrint.Location = new System.Drawing.Point(1060, 14);
+            this.btnPrint.Location = new System.Drawing.Point(1076, 14);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(183, 43);
             this.btnPrint.TabIndex = 0;
@@ -214,7 +215,7 @@ namespace WindowsBillManagement
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReset.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.Color.Black;
-            this.btnReset.Location = new System.Drawing.Point(438, 14);
+            this.btnReset.Location = new System.Drawing.Point(455, 14);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(183, 43);
             this.btnReset.TabIndex = 0;
@@ -229,7 +230,7 @@ namespace WindowsBillManagement
             this.btnReceipt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReceipt.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReceipt.ForeColor = System.Drawing.Color.Black;
-            this.btnReceipt.Location = new System.Drawing.Point(850, 14);
+            this.btnReceipt.Location = new System.Drawing.Point(869, 14);
             this.btnReceipt.Name = "btnReceipt";
             this.btnReceipt.Size = new System.Drawing.Size(183, 43);
             this.btnReceipt.TabIndex = 0;
@@ -243,7 +244,7 @@ namespace WindowsBillManagement
             this.btnTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTotal.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTotal.ForeColor = System.Drawing.Color.Black;
-            this.btnTotal.Location = new System.Drawing.Point(232, 13);
+            this.btnTotal.Location = new System.Drawing.Point(248, 13);
             this.btnTotal.Name = "btnTotal";
             this.btnTotal.Size = new System.Drawing.Size(183, 43);
             this.btnTotal.TabIndex = 0;
@@ -315,20 +316,20 @@ namespace WindowsBillManagement
             this.customerIDtxt.TabIndex = 4;
             this.customerIDtxt.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button1
+            // getCusD
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(156, 117);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Get Customer";
-            this.button1.UseVisualStyleBackColor = false;
+            this.getCusD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
+            this.getCusD.FlatAppearance.BorderSize = 0;
+            this.getCusD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.getCusD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.getCusD.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.getCusD.Location = new System.Drawing.Point(156, 117);
+            this.getCusD.Margin = new System.Windows.Forms.Padding(0);
+            this.getCusD.Name = "getCusD";
+            this.getCusD.Size = new System.Drawing.Size(125, 28);
+            this.getCusD.TabIndex = 0;
+            this.getCusD.Text = "Get Customer";
+            this.getCusD.UseVisualStyleBackColor = false;
             // 
             // customerNametxt
             // 
@@ -926,71 +927,6 @@ namespace WindowsBillManagement
             this.billSetDateBtn.UseVisualStyleBackColor = false;
             this.billSetDateBtn.Click += new System.EventHandler(this.billSetDateBtn_Click);
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.button5);
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Controls.Add(this.button3);
-            this.panel5.Controls.Add(this.button2);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(100, 771);
-            this.panel5.TabIndex = 13;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(19, 709);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(64, 62);
-            this.button5.TabIndex = 0;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(19, 591);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 62);
-            this.button4.TabIndex = 0;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(19, 473);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 62);
-            this.button3.TabIndex = 0;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(19, 355);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 62);
-            this.button2.TabIndex = 0;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
@@ -1123,6 +1059,71 @@ namespace WindowsBillManagement
             this.label28.Text = "---------------------------------------------------------------------------------" +
     "-------------------------------------------------------";
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(19, 261);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(44, 42);
+            this.button2.TabIndex = 0;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.button5);
+            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.button3);
+            this.panel5.Controls.Add(this.button2);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(83, 771);
+            this.panel5.TabIndex = 13;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(19, 343);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(44, 42);
+            this.button3.TabIndex = 0;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(19, 425);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(44, 42);
+            this.button4.TabIndex = 0;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(19, 507);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(44, 42);
+            this.button5.TabIndex = 0;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // Bill
             // 
             this.BackColor = System.Drawing.Color.White;
@@ -1176,7 +1177,7 @@ namespace WindowsBillManagement
             this.Controls.Add(this.billYearCombo);
             this.Controls.Add(this.billMonthCombo);
             this.Controls.Add(this.billSetDateBtn);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.getCusD);
             this.Controls.Add(this.customerDisctxt);
             this.Controls.Add(this.vehicleIDtxt);
             this.Controls.Add(this.customerNametxt);
@@ -1225,7 +1226,7 @@ namespace WindowsBillManagement
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox customerIDtxt;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button getCusD;
         private System.Windows.Forms.TextBox customerNametxt;
         private System.Windows.Forms.TextBox vehicleIDtxt;
         private System.Windows.Forms.TextBox customerDisctxt;
@@ -1276,11 +1277,6 @@ namespace WindowsBillManagement
         private System.Windows.Forms.ComboBox billYearCombo;
         private System.Windows.Forms.ComboBox billDayCombo;
         private System.Windows.Forms.Button billSetDateBtn;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label labelD;
         private System.Windows.Forms.Label labelT;
         private System.Windows.Forms.Timer timer1;
@@ -1293,6 +1289,11 @@ namespace WindowsBillManagement
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }
 

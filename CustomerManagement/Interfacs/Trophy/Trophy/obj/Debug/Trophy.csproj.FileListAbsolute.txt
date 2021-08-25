@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\bin\Debug\Trophy.exe.config
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\bin\Debug\Trophy.exe
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\bin\Debug\Trophy.pdb
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Form1.resources
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Properties.Resources.resources
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.exe
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.pdb
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Form2.resources
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Form3.resources
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Form4.resources
+C:\Users\HP\Desktop\Interfacs\Trophy\Trophy\obj\Debug\Trophy.Form5.resources
