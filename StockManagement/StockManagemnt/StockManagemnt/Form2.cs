@@ -30,16 +30,6 @@ namespace StockManagemnt
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form2_Load(object sender, EventArgs e)
         {
             //button1 border changing to curve
@@ -53,5 +43,7 @@ namespace StockManagemnt
             f1.Show();
 
         }
+
+        
     }
 }
