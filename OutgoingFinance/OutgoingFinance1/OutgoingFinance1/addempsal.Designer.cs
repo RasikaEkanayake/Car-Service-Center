@@ -275,6 +275,7 @@ namespace OutgoingFinance1
             this.Controls.Add(this.label1);
             this.Name = "addempsal";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.addempsal_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

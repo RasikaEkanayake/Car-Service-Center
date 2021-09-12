@@ -14,5 +14,10 @@ namespace OutgoingFinance1
         {
             InitializeComponent();
         }
+
+        private void addcost_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -94,6 +94,7 @@ namespace OutgoingFinance1
             this.button4.TabIndex = 3;
             this.button4.Text = "Supplier Bills";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             this.button4.MouseLeave += new System.EventHandler(this.button4_MouseLeave);
             this.button4.MouseHover += new System.EventHandler(this.button4_Mousehover);
             // 

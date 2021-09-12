@@ -36,7 +36,6 @@ E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingF
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.runtimeconfig.dev.json
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.dll
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\OutgoingFinance1.pdb
-E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.AssemblyReference.cache
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Properties.Resources.resources
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.GenerateResource.cache
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.AssemblyInfoInputs.cache
@@ -49,3 +48,15 @@ E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingF
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form2.resources
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.Form1.resources
 E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.addempsal.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.addcost.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.stockcost.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.supbills.resources
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\MySql.Data.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+E:\IT Project Y2S2\Car-Service-Center\OutgoingFinance\OutgoingFinance1\OutgoingFinance1\obj\Debug\netcoreapp3.1\OutgoingFinance1.csproj.CopyComplete
