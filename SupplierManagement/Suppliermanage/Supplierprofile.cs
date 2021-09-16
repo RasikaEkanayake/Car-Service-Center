@@ -65,7 +65,7 @@ namespace Suppliermanage
         {
            
             {
-                new Supplierform().ShowDialog();
+                //new Supplierform().ShowDialog();
             }
           
 
@@ -96,6 +96,31 @@ namespace Suppliermanage
         private void button7_Click(object sender, EventArgs e)
         {
             new supplierlist().ShowDialog();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new supplierlist().ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }
