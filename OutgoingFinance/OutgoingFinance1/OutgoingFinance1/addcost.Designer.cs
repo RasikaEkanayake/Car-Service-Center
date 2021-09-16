@@ -137,9 +137,9 @@ namespace OutgoingFinance1
             this.label3.Font = new System.Drawing.Font("Lato", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(52, 221);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(202, 28);
+            this.label3.Size = new System.Drawing.Size(116, 28);
             this.label3.TabIndex = 43;
-            this.label3.Text = "Total Monthly cost";
+            this.label3.Text = "Total Cost";
             // 
             // addcost
             // 
@@ -158,6 +158,7 @@ namespace OutgoingFinance1
             this.Controls.Add(this.label1);
             this.Name = "addcost";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.addcost_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

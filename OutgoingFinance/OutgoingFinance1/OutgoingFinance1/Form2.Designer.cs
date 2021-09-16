@@ -31,8 +31,8 @@ namespace OutgoingFinance1
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -43,6 +43,7 @@ namespace OutgoingFinance1
             this.label1 = new System.Windows.Forms.Label();
             this.topic = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.print = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,7 +60,6 @@ namespace OutgoingFinance1
             this.Search = new System.Windows.Forms.TextBox();
             this.addnew = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -186,7 +186,7 @@ namespace OutgoingFinance1
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.print);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.Search);
@@ -195,6 +195,20 @@ namespace OutgoingFinance1
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1606, 705);
             this.panel2.TabIndex = 0;
+            // 
+            // print
+            // 
+            this.print.BackColor = System.Drawing.Color.DarkGreen;
+            this.print.FlatAppearance.BorderSize = 0;
+            this.print.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.print.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.print.ForeColor = System.Drawing.Color.White;
+            this.print.Location = new System.Drawing.Point(208, 27);
+            this.print.Name = "print";
+            this.print.Size = new System.Drawing.Size(155, 56);
+            this.print.TabIndex = 36;
+            this.print.Text = "Print";
+            this.print.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -299,12 +313,12 @@ namespace OutgoingFinance1
             // 
             // Column10
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(245)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Lato", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(245)))), ((int)(((byte)(0)))));
-            this.Column10.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(245)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Lato", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(245)))), ((int)(((byte)(0)))));
+            this.Column10.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Column10.HeaderText = "";
             this.Column10.MinimumWidth = 6;
@@ -315,11 +329,11 @@ namespace OutgoingFinance1
             // 
             // Column11
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(0)))), ((int)(((byte)(4)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Lato", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(0)))), ((int)(((byte)(4)))));
-            this.Column11.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(0)))), ((int)(((byte)(4)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Lato", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(0)))), ((int)(((byte)(4)))));
+            this.Column11.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Column11.HeaderText = "";
             this.Column11.MinimumWidth = 6;
@@ -368,20 +382,6 @@ namespace OutgoingFinance1
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.DarkGreen;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(208, 27);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(155, 56);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "Print";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
@@ -437,6 +437,6 @@ namespace OutgoingFinance1
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewButtonColumn Column10;
         private System.Windows.Forms.DataGridViewButtonColumn Column11;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button print;
     }
 }

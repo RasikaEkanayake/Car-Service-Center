@@ -17,6 +17,16 @@ namespace OutgoingFinance1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void stockcost_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
             addcost addcost = new addcost();
             addcost.Show();
         }
