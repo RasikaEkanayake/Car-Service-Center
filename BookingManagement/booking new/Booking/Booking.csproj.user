@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="BookingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DashSample.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BK_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Add_NewBK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Available_SlotBK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainDashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
